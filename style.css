@@ -7,6 +7,9 @@
   background-color: #f1dabf;
   padding-top: 2em;
   padding-bottom: 2em;
+  padding-right: 0;
+  margin: 0;
+  width: 100vw;
 }
 #shef{
   margin-top: 1em;
@@ -15,6 +18,7 @@
   padding-left: 2em;
   background-color: #f1dabf;
   padding-bottom: 1em;
+  width: 100vw;
 }
 .main-shef{
   background-color: #f1dabf;
@@ -88,7 +92,7 @@ nav ul{
 nav ul li{
   list-style: none;
   margin-right: 2em;
-  margin-top: 1em;
+  margin-top: 0.5%;
   width: 20%;
   height: 2em;
   border: 1px solid black;
@@ -110,9 +114,19 @@ nav ul li a:hover{
   box-shadow: 0 0 2em #f1dabf;
   color: #04030f;
 }
+@media only screen and (min-width: 800px) {
+  nav ul li {
+    width: 100%;
+    margin-top: 1.5%;}
+}
+@media only screen and (max-width: 800px) {
+  nav ul li {
+    width: 100%;
+   margin-top: 1%;}
+}
 @media only screen and (max-width: 480px) {
   nav {
-    height: 25vh;
+    height: 30vh;
     z-index: 1;
   }
   .pic-ctn{
@@ -127,10 +141,11 @@ nav ul li a:hover{
     flex-wrap: wrap;
   }
 
-  nav ul li {
-    width: 100%;
+  /*nav ul li {*/
+  /*  width: 100%;*/
+  /*  margin-top: 3%;*/
 
-  }
+  /*}*/
 }
 /*meniu pabaiga*/
 /*slide*/
