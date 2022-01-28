@@ -5,6 +5,7 @@ section{
   display: flex;
   flex-wrap: wrap;
   background: #f1dabf;
+  width: 100vw;
 }
 /*meniu pradzia*/
 nav{
@@ -12,6 +13,8 @@ nav{
   height: 10vh;
   width: 100vw;
   background: #362417;
+  position: fixed;
+  z-index: 1;
 }
 nav ul{
   display: flex;
@@ -45,6 +48,13 @@ nav ul li a:hover{
 @media only screen and (max-width: 480px) {
   nav {
     height: 25vh;
+    z-index: 1;
+  }
+  .pic-ctn{
+    margin: 0;
+  }
+  .pic-ctn > img {
+    margin-top: 1.5em;
   }
 
   nav ul {
@@ -64,15 +74,9 @@ nav ul li a:hover{
     height: 300px;
     margin: 10vh 0;
   }
-  .pic-ctn h2{
-    top: -30%;
-    position: absolute;
-    left:45%;
-    margin-top: 1em;
-  }
   .pic-ctn > img {
     position: absolute;
-    top: 0;
+    top: 30%;
     left: calc(50% - 180px);
     opacity: 0;
     animation: display 10s infinite;
@@ -113,7 +117,7 @@ nav ul li a:hover{
   }
 }
 /*animacija pabaiga*/
-@media only screen and (max-width: 416px) {
+@media only screen and (max-width: 440px) {
   .pic-ctn {
     display: none;
   }
@@ -126,6 +130,8 @@ body {
   margin: 0;
   padding-bottom: 200px;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 iframe {
