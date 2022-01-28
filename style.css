@@ -1,9 +1,10 @@
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+
   padding-bottom: 200px;
   font-family: 'Roboto', sans-serif;
 }
@@ -23,6 +24,57 @@ h1 {
 h2 {
   font-size: 35px;
 }
+
+/* ****************
+Indrės kodo pradžia (header+img)
+**************** */
+
+.cover {
+  height: 25vh;
+  background-image: url(./images/cover-img.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  color: #f1dabf;
+  position: relative;
+}
+
+.cover::before {
+  content: '';
+  background: linear-gradient(to right, #362417, #362417, transparent) ;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.cover-title {
+  max-width: 100%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 2;
+  letter-spacing: .2rem;
+  text-shadow: 
+      4px 4px 0px #92817a, 
+      7px 7px 0px #362417;
+  }
+
+
+@media (min-width: 480px) {
+  .cover-title {
+    letter-spacing: .5rem;
+    font-size: 3rem;
+  }
+}
+
+/* ****************
+Indrės kodo pabaiga
+**************** */
 
 .container {
   max-width: 900px;
