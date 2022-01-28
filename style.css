@@ -1,22 +1,30 @@
-.btn{
-    background-color: #92817a;
-    color:aliceblue;
-}
-.card-body{
-    background-color: #f1dabf;
-}
-.card{
-    background-color: #f1dabf;
-}
 
 * {
   margin: 0;
   box-sizing: border-box;
 }
-
+.container-s{
+  background-color: #f1dabf;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#shef{
+  margin-top: 1em;
+}
+.contacts-r{
+  padding-left: 2em;
+  background-color: #f1dabf;
+  padding-bottom: 1em;
+}
+.main-shef{
+  background-color: #f1dabf;
+}
+#coloriukas{
+  background-color: #f1dabf;
+}
   body {
     margin: 0;
-    padding-bottom: 200px;
+    /*padding-bottom: 200px;*/
     font-family: 'Roboto', sans-serif;
     background-color: #f1dabf;
   }
