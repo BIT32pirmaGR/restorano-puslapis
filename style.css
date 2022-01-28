@@ -292,4 +292,6 @@
   .row{
     padding-top: 15vh;
   }
- 
+  .container-wrapper{
+   padding-top: 10rem;
+  }
