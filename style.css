@@ -1,3 +1,14 @@
+.btn{
+    background-color: #92817a;
+    color:aliceblue;
+}
+.card-body{
+    background-color: #f1dabf;
+}
+.card{
+    background-color: #f1dabf;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -7,6 +18,7 @@
     margin: 0;
     padding-bottom: 200px;
     font-family: 'Roboto', sans-serif;
+    background-color: #f1dabf;
   }
   
   iframe {
@@ -523,4 +535,5 @@ nav ul li a:hover{
   .container-wrapper{
    padding-top: 10rem;
   }
+
 
