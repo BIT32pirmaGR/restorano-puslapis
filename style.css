@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
 }
-section{
+/*romann*/
+.interjer{
   display: flex;
   flex-wrap: wrap;
   background: #f1dabf;
@@ -125,7 +126,7 @@ nav ul li a:hover{
     left:8%;
   }
 /*interjero pabaiga*/
-
+/*roman pabaiga*/
 
 
 body {
