@@ -68,6 +68,7 @@ nav ul li a:hover{
   }
 }
 /*meniu pabaiga*/
+/*slide*/
   .pic-ctn {
     position: relative;
     width: 100vw;
@@ -118,11 +119,12 @@ nav ul li a:hover{
 }
 /*animacija pabaiga*/
 @media only screen and (max-width: 440px) {
-  .pic-ctn {
-    display: none;
+  .pic-ctn > img {
+    height: 80%;
+    width: 80%;
+    left:8%;
   }
 /*interjero pabaiga*/
-
 
 
 
