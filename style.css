@@ -197,3 +197,22 @@ h2 {
     font-size: 3rem;
   }
 }
+
+/* Ingos pridėtas kodas pradzia */
+.threebut {
+  background: #362417;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Ingos pridėtas kodas pabaiga */
+
